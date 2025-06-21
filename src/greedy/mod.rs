@@ -4,3 +4,7 @@ mod find_content_children;
 mod wiggle_max_length;
 // 最大子序和
 mod max_sub_array;
+// 买卖股票
+mod max_profit;
+// 跳跃问题
+mod can_jump;

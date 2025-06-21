@@ -11,5 +11,5 @@ pub fn max_sub_array(nums: Vec<i32>) -> i32 {
 
 #[test]
 fn test() {
-    println!("{:?}",max_sub_array(vec![0, 0]));
+    println!("{:?}", max_sub_array(vec![0, 0]));
 }
