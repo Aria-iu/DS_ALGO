@@ -18,3 +18,17 @@ mod can_complete_circuit;
 mod candy;
 // 柠檬水找零
 mod lemonade_change;
+// 根据身高重新列队
+mod reconstruct_queue;
+// 射气球问题
+mod find_min_arrow_shots;
+// 无重叠区间问题
+mod erase_overlap_intervals;
+// 划分字母区间
+mod partition_labels;
+// 合并重叠区间
+mod merge;
+// 单调递增的数字
+mod monotone_increasing_digits;
+// 监控二叉树（TreeNode未实现，暂时不能跑）
+mod min_camera_cover;
