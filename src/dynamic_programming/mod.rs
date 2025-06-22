@@ -9,8 +9,16 @@ mod min_cost_climbing_stairs;
 mod integer_break;
 // 不同的二叉搜索树
 mod num_trees;
+// 分割等和子集
+mod can_partition;
+// 最后一块石头的重量
+mod last_stone_weight_ii;
+// 目标和
+mod find_target_sum_ways;
 //==================== 二维 DP ==========================
 // 不同路径
 mod unique_paths;
 // 有障碍物的不同路径
 mod unique_paths_with_obstacles;
+// 0-1背包
+mod zero_one_bag;
