@@ -1,7 +1,7 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
-struct TreeNode{
+struct TreeNode {
     val: i32,
     left: Option<Rc<RefCell<TreeNode>>>,
     right: Option<Rc<RefCell<TreeNode>>>,
@@ -49,5 +49,3 @@ pub fn traversal(cur: &Option<Rc<RefCell<TreeNode>>>, ans: &mut i32) -> i32 {
     }
     -1
 }
-
-

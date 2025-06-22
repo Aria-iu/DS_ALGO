@@ -14,6 +14,9 @@ use backtrace::*;
 mod greedy;
 use greedy::*;
 
+mod dynamic_programming;
+use dynamic_programming::*;
+
 #[cfg(test)]
 mod tests {
     use super::*;
