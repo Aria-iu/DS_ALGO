@@ -8,3 +8,13 @@ mod max_sub_array;
 mod max_profit;
 // 跳跃问题
 mod can_jump;
+// 最少跳跃问题
+mod least_jump;
+// K次取反最大值和问题
+mod largest_sum_after_k_negations;
+// 加油站问题
+mod can_complete_circuit;
+// 发糖问题
+mod candy;
+// 柠檬水找零
+mod lemonade_change;
