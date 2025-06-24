@@ -17,6 +17,9 @@ use greedy::*;
 mod dynamic_programming;
 use dynamic_programming::*;
 
+mod binary_tree;
+use binary_tree::*;
+
 #[cfg(test)]
 mod tests {
     use super::*;
