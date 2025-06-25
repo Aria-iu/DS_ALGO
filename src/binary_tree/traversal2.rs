@@ -1,5 +1,10 @@
 use super::node::*;
-pub fn preorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+use std::cell::RefCell;
+use std::collections::VecDeque;
+use std::i32;
+use std::rc::Rc;
+
+pub fn preorder_traversal(root: Option<Rc<RefCell<TreeNode<i32>>>>) -> Vec<i32> {
     let mut res = vec![];
     let mut stack = vec![root];
     while !stack.is_empty() {
@@ -12,7 +17,7 @@ pub fn preorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
     res
 }
 //中序
-pub fn inorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+pub fn inorder_traversal(root: Option<Rc<RefCell<TreeNode<i32>>>>) -> Vec<i32> {
     let mut res = vec![];
     let mut stack = vec![];
     let mut node = root;
@@ -30,7 +35,7 @@ pub fn inorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
     res
 }
 //后序
-pub fn postorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+pub fn postorder_traversal(root: Option<Rc<RefCell<TreeNode<i32>>>>) -> Vec<i32> {
     let mut res = vec![];
     let mut stack = vec![root];
     while !stack.is_empty() {

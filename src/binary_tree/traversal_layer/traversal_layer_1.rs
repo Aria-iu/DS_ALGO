@@ -3,7 +3,7 @@ use std::cell::RefCell;
 use std::collections::VecDeque;
 use std::rc::Rc;
 
-pub fn level_order_1(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
+pub fn level_order_1(root: Option<Rc<RefCell<TreeNode<i32>>>>) -> Vec<Vec<i32>> {
     let mut res = vec![];
     let mut queue = VecDeque::new();
     if root.is_some() {

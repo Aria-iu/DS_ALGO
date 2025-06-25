@@ -3,7 +3,7 @@ use std::cell::RefCell;
 use std::collections::VecDeque;
 use std::rc::Rc;
 
-pub fn right_side_view(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+pub fn right_side_view(root: Option<Rc<RefCell<TreeNode<i32>>>>) -> Vec<i32> {
     let mut res = vec![];
     let mut queue = VecDeque::new();
     if root.is_some() {

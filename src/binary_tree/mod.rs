@@ -7,3 +7,5 @@ mod traversal2;
 mod traversal3;
 // 二叉树的层序遍历
 mod traversal_layer;
+// 对称二叉树
+mod symmetric_tree;

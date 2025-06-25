@@ -3,7 +3,7 @@ use std::cell::RefCell;
 use std::collections::VecDeque;
 use std::rc::Rc;
 
-pub fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+pub fn max_depth(root: Option<Rc<RefCell<TreeNode<i32>>>>) -> i32 {
     let mut queue = VecDeque::new();
     let mut res = 0;
     if root.is_some() {
