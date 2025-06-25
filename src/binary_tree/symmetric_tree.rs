@@ -10,7 +10,10 @@ fn is_symmetric(root: Option<Rc<RefCell<TreeNode<i32>>>>) -> bool {
         &root.as_ref().unwrap().borrow().right,
     )
 }
-pub fn recur(left: &Option<Rc<RefCell<TreeNode<i32>>>>, right: &Option<Rc<RefCell<TreeNode<i32>>>>) -> bool {
+pub fn recur(
+    left: &Option<Rc<RefCell<TreeNode<i32>>>>,
+    right: &Option<Rc<RefCell<TreeNode<i32>>>>,
+) -> bool {
     match (left, right) {
         (None, None) => true,
         (Some(n1), Some(n2)) => {
