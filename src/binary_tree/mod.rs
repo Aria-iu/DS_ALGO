@@ -25,3 +25,25 @@ mod build_tree1;
 mod build_tree2;
 // 最大二叉树
 mod construct_maximum_binary_tree;
+// 合并二叉树
+mod merge_trees;
+// 二叉搜索树的搜索
+mod search_bst;
+// 验证二叉搜索树
+mod is_valid_bst;
+// 二叉搜索树的最小绝对差
+mod get_minimum_difference;
+// 二叉搜索树中的众数
+mod find_mode;
+// 二叉树的最近公共祖先
+mod lowest_common_ancestor;
+// 二叉搜索树的最近公共祖先
+mod lowest_common_ancestor_bst;
+// 删除二叉搜索树的节点
+mod delete_node;
+// 修剪二叉搜索树
+mod trim_bst;
+// 将有序数组转换为二叉搜索树: 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。
+mod sorted_array_to_bst;
+// 把二叉搜索树转换为累加树
+mod convert_bst;
