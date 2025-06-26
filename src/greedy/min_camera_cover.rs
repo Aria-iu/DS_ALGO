@@ -15,7 +15,7 @@ pub fn min_camera_cover(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
     res
 }
 
-pub fn traversal(cur: &Option<Rc<RefCell<TreeNode>>>, ans: &mut i32) -> i32 {
+fn traversal(cur: &Option<Rc<RefCell<TreeNode>>>, ans: &mut i32) -> i32 {
     // 0 未覆盖 1 节点已设置摄像头 2 节点已覆盖
     if let Some(node) = cur {
         let node = node.borrow();
