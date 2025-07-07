@@ -1,3 +1,5 @@
+///! 并查集实现工具类
+
 pub struct DSUNode {
     parent: usize,
     size: usize,

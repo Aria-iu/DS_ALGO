@@ -10,5 +10,5 @@ mod depth_first_search;
 mod dijkstra;
 mod disjoint_set_union;
 mod lowest_common_ancestor;
-mod minimum_spanning_tree;
+mod minimum_spanning_tree_kruskal;
 mod representation;
